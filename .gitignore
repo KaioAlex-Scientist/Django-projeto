@@ -140,3 +140,85 @@ GitHub.sublime-settings
 !.vscode/launch.json
 !.vscode/extensions.json
 .history
+
+# 🔐 Ambiente virtual
+venv/
+env/
+.venv/
+
+# 🔑 Variáveis de ambiente
+.env
+.env.*
+
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 📦 Distribuição / build
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 🧪 Testes / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+
+# 🧠 IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 📁 Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# 🗄️ Banco de dados local
+db.sqlite3
+db.sqlite3-journal
+
+# 📂 Logs
+*.log
+
+# 📂 Arquivos estáticos coletados
+staticfiles/
+
+# 📂 Media (uploads de usuários)
+media/
+
+# 🔒 Segurança
+*.pem
+*.key
+
+# 📜 Migrações (opcional - normalmente NÃO ignorar)
+# */migrations/*
+# !*/migrations/__init__.py
+
+# ⚙️ Configurações locais específicas
+local_settings.py
+
+# 📦 Node (se usar frontend junto)
+node_modules/
+
+# 🐳 Docker (se usar)
+*.pid
+*.seed
+*.pid.lock
+docker-compose.override.yml
